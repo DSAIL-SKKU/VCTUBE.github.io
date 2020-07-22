@@ -9,43 +9,39 @@
 
 <br>
 <div class="sixteen columns">
-      <h1>Why We Need VCTUBE?</h1>
+      <h2>Why We Need VCTUBE?</h2>
       <article>
           <p>
             Recent studies have shown that Text-to-Speech (TTS) systems based on deep neural networks (e.g., Tacotron, Deep Voice, etc.) can generate human-like speech with high quality. <br>
             However, it has been reported that training such a deep learning model to generate human-like speech requires a large amount of speech data. <br>
             At least 10 hours of <audio, text> pair data to generate high quality speech. In practice, collecting and processing such a large amount of speech data is challenging.
-            For this reason, VCTUBE can solve this problem. There are many video in Youtube. And Many of these videos have subtitles.
-
-            <br><br>
-            <em>Data anonymization: </em> All the user information is anonymized, hence no personally identifiable information was not identified; we followed all the anonymization process guided by the Sungkyunkwan University Institutional Review Board (IRB).
-          </p><br>
+            <br>For this reason, VCTUBE can solve this problem. There are many video in Youtube. And Many of these videos have subtitles.
 
           <div style="text-align:center; margin-bottom: 10px;">
             <img src="src="/DSAIL-SKKU/VCTUBE.github.io/blob/master/VCTUBE.jpg" style="width:400px;"><br>
-            <div>An architecture of VCTUBE's overall process.</div>
+            <div>An architecture of VCTUBE's overall processss.</div>
           </div>
-
-          <p>
-            <em>Classification models: </em> We developed six binary classification models, each of which categorizes a user' specific post into one of the following subreddits: r/depression, r/Anxiety, r/bipolar, r/BPD, r/schizophrenia, and r/autism.
-            Our conjecture is that a user who suffers from a specific mental problem writes a post on the corresponding subreddit that deals with the problem.
-            Therefore, we developed six independent binary classification models for each symptom to improve the performance.
-            By developing six independent models for each mental disorder, each of which uses data where users suffer from only one particular mental problem, we were able to accurately identify a user's potential mental state.
-            <br><br>
-            We divided our dataset into training (80%) and testing (20%) sets. We used two well-known classifiers, XGBoost and Convolutional Neural Network (CNN).
-            Note that we excluded the posts of users who wrote posts across multiple subreddits in learning phase.
-          </p>
-
-
-
       </article>
     </div>
     
     <div class="sixteen columns">
-      <h1>How To Use VCTUBE?</h1>
+      <h2>How To Use VCTUBE?</h2>
       <article>
           <p>
-          code 구현 사진... 
+          Requirment for VCTUBE is this <br>
+            1. Currently requires python >= 3.6 <br>
+            2. FFmpeg <br>
+                               
+          At first you need to install VCTUBE library by pip install command
+                                
+           <div style="text-align:center; margin-bottom: 10px;">
+            <img src="src="/DSAIL-SKKU/VCTUBE.github.io/blob/master/VCTUBE.jpg" style="width:400px;"><br>
+            <div>코드구현..</div>
+          </div>
+          
+              
+           
+           and follow these commands <br>
           </p>
       </article>
     </div>

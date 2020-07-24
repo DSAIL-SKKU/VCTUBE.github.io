@@ -55,7 +55,27 @@
               <li>- We are only allowed to distribute the data for the research purpose. Send an email to <a href="{{ site.email_full }}">jinakim@g.skku.edu</a> with the [SR-DataAccess] title.</li>
             </ul>
       </div>
-      <div class="seven columns">
+<h3>BibTeX</h3>
+        <span class="bibtex">
+           from vctube import VCtube<br>
+
+          playlist_name="" <br>
+          playlist_url = "" <br>
+          lang = ""   #ex) ko, en, fr, de...<br>
+
+          vc = VCtube(playlist_name, playlist_url, lang)<br>
+
+          vc.download_audio()    #download audios from youtube<br><br>
+
+          vc.download_captions()  #download captions from youtube<br><br>
+
+          vc.audio_split()       #split audio with captions<br><br>
+        </span>
+      </div>
+        
+        
+        
+        <div class="seven columns">
         <h3>Paper URL</h3>
         <em><a href="NOt now">INTERSPEECH 2020 (Published:  2020)</a></em>
         <br>
@@ -69,6 +89,7 @@
 
       </div>
     </div>
+
 
 </section>
 
